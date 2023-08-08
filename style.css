@@ -10,7 +10,7 @@ body {
       rgba(40, 40, 41, 0.5),
       rgba(40, 40, 41, 0.5)
     ),
-    url("images/background2.png");
+    url("images/background.png");
   background-size: cover;
   text-align: center;
   color: #fff;
@@ -39,7 +39,8 @@ body {
   border-radius: 10px;
   border: 0;
 }
-#btn-grp button:hover {
+#btn-grp button:hover, 
+#btn404:hover{
   height: 55px;
   background-color: #fae4da;
   color: white;
@@ -57,10 +58,38 @@ body {
   border-radius: 10px;
   color: white;
 }
+#lost{
+  width: 300px;
+  border-radius: 10px;
+  margin: 50px 0;
+}
+#alert{
+  font-size: 80pt;
+  padding-top: 50px;
+}
+#btn404{
+  width: 40vw;
+  height: 50px;
+  background-color: #fae4ce;
+  color: grey;
+  border-radius: 10px;
+  border: 0;
+  margin-bottom:50px;
+}
+#Contact{
+  color: #fff;
+  text-decoration: none;
+}
 
 @media (max-width: 576px) {
   #about {
     width: 95vw;
+  }
+  #btn404{
+    width: 70vw;
+  }
+  #lost{
+    width: 200px;
   }
 }
 @media (min-width: 576px) and (max-width: 992px) {
